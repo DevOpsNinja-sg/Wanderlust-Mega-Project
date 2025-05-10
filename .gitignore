@@ -1,0 +1,23 @@
+# Exclude keys folder
+keys/
+keys/**
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Exclude sensitive files
+secret.tf
+secrets.tf
+private_key.pem
+*.pem
+*.key
