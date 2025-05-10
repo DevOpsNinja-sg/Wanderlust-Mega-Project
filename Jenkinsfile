@@ -101,7 +101,7 @@ pipeline {
                         }
                     
                         dir('frontend'){
-                            docker_build("wanderlust-frontend-beta","${params.FRONTEND_DOCKER_TAG}","sxhilgupta)
+                            docker_build("wanderlust-frontend-beta","${params.FRONTEND_DOCKER_TAG}","sxhilgupta")
                         }
                 }
             }
